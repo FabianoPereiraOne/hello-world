@@ -1,11 +1,13 @@
+import { About } from './pages/About';
+import { Home } from './pages/Home';
 import './styles/index.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <p>&lt;/&gt; O retorno do programador &lt;/&gt;</p>
-    </div>
+    <section className='App'>
+      <Home />
+      <About />
+    </section>
   );
 }
 
