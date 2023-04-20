@@ -1,0 +1,17 @@
+.button_next{
+ width: 248px;
+ height: 50px;
+ border-radius: 20px;
+ background-color: var(--text-blue);
+ font-size: 1.3rem;
+ color: var(--text-white);
+ border: none;
+ transition: 0.3s;
+ cursor: pointer;
+ margin-top: 42px;
+}
+
+.button_next:hover{
+ background-color: var(--text-blue-light);
+ transform: scale(1.02,1.02);
+}

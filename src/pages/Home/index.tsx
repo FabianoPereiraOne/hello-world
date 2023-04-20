@@ -1,11 +1,11 @@
-import { useScrollLeft } from '../../hooks/useScrollLeft';
+import { Button } from '../../components/atoms/Button';
 import './styles.css';
 export const Home = () => {
   return (
     <div className="content home">
-      <h1>Hello World</h1>
-      <p>&lt;/&gt; O retorno do programador &lt;/&gt;</p>
-      <button onClick={useScrollLeft}>Iniciar Jornada &rarr;</button>
+      <h3>Hello World</h3>
+      <p>&lt;/&gt; Uma jornada de programador &lt;/&gt;</p>
+      <Button text="Iniciar Jornada &rarr;" />
     </div>
   )
 }

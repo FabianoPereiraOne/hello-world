@@ -7,6 +7,7 @@ function App() {
     <section className='App'>
       <Home />
       <About />
+      <Home />
     </section>
   );
 }
