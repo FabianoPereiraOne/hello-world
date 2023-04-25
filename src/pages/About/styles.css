@@ -43,5 +43,47 @@
 
 .about .container_img img:hover{
  transform: rotateZ(20deg) scale(1.05,1.05);
- 
+}
+
+@media screen and (max-width: 900px){
+ .about{
+  flex-direction: column;
+ }
+
+ .about .about_wrapper,.about .container_img{
+  width: 100%;
+  padding: 0 18px;
+ }
+
+ .about .container_img{
+  margin: 24px 0 0 0;
+ }
+
+ .about .about_wrapper p{
+  font-size: 1.3rem;
+  max-width: 100%;
+ }
+
+ .about .container_img img:hover{
+  transform: none;
+ }
+}
+
+@media screen and (max-width: 600px){
+ .about{
+  padding: 24px;
+ }
+
+ .about .about_wrapper,.about .container_img{
+  width: 100%;
+  padding: 0;
+ }
+
+ .about .about_wrapper h1{
+  font-size: 2rem;
+ }
+
+ .about .about_wrapper p{
+  font-size: 1rem;
+ }
 }
